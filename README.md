@@ -26,7 +26,7 @@ If you have an IBM Cloud account, use it to log in. Otherwise, click Create an I
 
 After you log in, the dashboard shows an overview of what is running on IBM Cloud and other helpful information.
 
-  ![Create an App on IBM Cloud](images/Picture 1.png)
+  ![Create an App on IBM Cloud](/images/Picture 1.png)
 2) Click on `Get a Starter Kit`
 3) Click on `Create App`
 
