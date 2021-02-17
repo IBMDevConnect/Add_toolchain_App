@@ -46,7 +46,7 @@ After you log in, the dashboard shows an overview of what is running on IBM Clou
    
    ![Get Started](images/Picture5.png)
 
-6) Click Create. The app is created.
+6) Click `Create`. The app is created.
 
 Note: The app is not deployed nor running yet.
 
@@ -99,7 +99,7 @@ The toolchain is created.
 
 ![View console](images/Picture14.png)
 
-11) Click Visit App URL.
+11) Click `Visit App URL`.
 
 ![Visit App URL](images/Picture15.png)
 
