@@ -10,7 +10,7 @@ After you create the toolchain, you change your app's code and push the change t
 
 ## Pre-requisites
 
-You must have an IBM Cloud account. If you don't have one, sign up for a trial. The account requires an IBMid. If you don't have an IBMid, you can create one when you register.
+You must have an IBM Cloud account. If you don't have one, sign up for a trial. The account requires an IBMid. If you don't have an IBMid, you can create one when you register with this link - https://ibm.biz/Bdf4qx
 
 A GitHub account. If you don't have one, sign up.
 
