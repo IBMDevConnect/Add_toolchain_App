@@ -1,4 +1,4 @@
-# CFtoolchainAD
+# Add a toolchain to an app
 
 In a few minutes, you can create a toolchain from an IBM Cloud® app and then use that toolchain in an IBM Cloud environment. IBM Cloud is an open-standards, cloud-based platform for building, running, and managing applications.
 
@@ -29,12 +29,15 @@ After you log in, the dashboard shows an overview of what is running on IBM Clou
   ![Create an App on IBM Cloud](images/Picture1.png)
   
 2) Click on `Get a Starter Kit`
+
 3) Click on `Create App`
 
   ![Create an App on IBM Cloud](images/Picture2.png)
+
 4) Click on `Get Started`
 
    ![Get Started](images/Picture3.png)  
+
 5) In the App Name field, type a name for your app.
    
    ![Get Started](images/Picture4.png)
@@ -42,7 +45,8 @@ After you log in, the dashboard shows an overview of what is running on IBM Clou
    Select Language: SDK for Node.js™
    
    ![Get Started](images/Picture5.png)
- 6) Click Create. The app is created.
+
+6) Click Create. The app is created.
 
 Note: The app is not deployed nor running yet.
 
@@ -51,18 +55,24 @@ Note: The app is not deployed nor running yet.
 ## Task 2 - Add a toolchain to the app
 
 1) On your app's Overview page, on the Deploy your app card, click `Deploy your app`
+
 2) Select deployment target by clicking ` Cloud Foundry `
 
   ![Cloud foundry](images/Picture7.png)
+
 3) Click on `New` to generate an API key
+
 4) Select the region to deploy in, the target organization, and the space.
 
 Note: If no organization or space are displayed, create them on the Cloud Foundry Orgs page(https://cloud.ibm.com/account/cloud-foundry)
 ![Cloud foundry orgs](images/Picture8.png)
+
 5) Click `Next`
+
 6) Click on `Create` with below selection to create the toolchain. Wait until the toolchain is created.
 
 ![Cloud foundry orgs](images/Picture9.png)
+
 7) Click on the App name in the `Deployment Automation ` section to view the toolchain.
 
 ![Cloud foundry orgs](images/Picture10.png)
@@ -76,18 +86,23 @@ The toolchain is created.
   * The Overview page for the toolchain is displayed.
 
 ![Pipeline status](images/Picture11.png)
+
 8) Click Delivery Pipeline to see the pipeline. The pipeline is running when the toolchain is first created, in order to deploy your app. When you push changes to the repository associated with the toolchain, the pipeline automatically runs.
 
 ![Pipeline](images/Picture12.png)
+
 9) You can also trigger the pipeline manually, by clicking the Run Stage icon on the Build stage.
 
 ![Pipeline build stage](images/Picture13.png)
+
 10) Click the View console link on the Deploy stage of the pipeline to return to the application dashboard.
 
 ![View console](images/Picture14.png)
+
 11) Click Visit App URL.
 
 ![Visit App URL](images/Picture15.png)
+
 12) The running app opens in a new window.
 
 ![Visit App](images/Picture16.png)
